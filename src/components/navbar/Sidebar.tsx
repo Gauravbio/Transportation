@@ -35,7 +35,7 @@ const Sidebar = () => {
     md:w-5/12 xl:w-3/12 absolute"
     >
       {options.map((item) => (
-        <NavItem title={item.title} />
+        <NavItem key={item.title} title={item.title} />
       ))}
     </div>
   );

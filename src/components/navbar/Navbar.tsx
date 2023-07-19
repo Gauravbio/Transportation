@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from 'react'
 import {RxHamburgerMenu} from 'react-icons/rx';
-import Logo from './Logo';
+import Logo from '../Logo';
 import {GiTireIronCross} from 'react-icons/gi'
 import Profile from '@/app/profile/page';
 import Sidebar from './Sidebar';

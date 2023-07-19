@@ -1,11 +1,14 @@
+import Extras from '@/components/Extras'
 import ImageSlider from '@/components/ImageSlider'
-import Navbar from '@/components/Navbar'
-import Image from 'next/image'
+import Services from '@/components/Services'
+import Testimonials from '@/components/Testimonials'
 
 export default function Home() {
   return (
     <main>
       <ImageSlider />
+      <Services />
+      <Testimonials />
     </main>
   )
 }
