@@ -18,6 +18,7 @@ import images from '@/assets';
 
 type ImageProps={
     image: StaticImageData;
+    name: string;
 }
 
 interface SliderProps {
@@ -43,7 +44,7 @@ interface SliderProps {
       >
         {
             slides.map((slide)=> (
-                <SwiperSlide>
+                <SwiperSlide key={slide.name}>
                     <Image src={slide.image} alt='main-slider' className='object-center' />
                 </SwiperSlide>
             ))

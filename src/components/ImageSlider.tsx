@@ -5,13 +5,16 @@ import images from '@/assets'
 const ImageSlider = () => {
   const slides=[
     {
-      image: images.mainSlider1
+      image: images.mainSlider1,
+      name: 'main-slider-1'
     },
     {
-      image: images.mainSlider2
+      image: images.mainSlider2,
+      name: 'main-slider-2'
     },
     {
-      image: images.mainSlider3
+      image: images.mainSlider3,
+      name: 'main-slider-3'
     },
   ]
   return (
