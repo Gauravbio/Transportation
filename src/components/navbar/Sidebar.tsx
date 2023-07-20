@@ -5,24 +5,31 @@ const Sidebar = () => {
   const options = [
     {
       title: "Home",
+      link: '/'
     },
     {
       title: "About",
+      link: '/about'
     },
     {
       title: "Services",
+      link: '/services'
     },
     {
       title: "Careers",
+      link: '/careers'
     },
     {
       title: "Media Center",
+      link: '/media-center'
     },
     {
       title: "Contact us",
+      link: '/contact'
     },
     {
       title: "Go Tracking",
+      link: '/tracking'
     },
   ];
   return (
@@ -35,7 +42,7 @@ const Sidebar = () => {
     md:w-5/12 xl:w-3/12 absolute"
     >
       {options.map((item) => (
-        <NavItem key={item.title} title={item.title} />
+        <NavItem key={item.title} title={item.title} link={item.link} />
       ))}
     </div>
   );
